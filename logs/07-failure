@@ -1,0 +1,27 @@
+[ 5540.286503] i2c_hid:i2c_hid_set_power: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_power
+[ 5540.286514] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 01 08
+[ 5540.535318] i2c_hid:i2c_hid_core_probe: i2c-hid-core.c: HID probe called for i2c 0x2c
+[ 5540.535579] i2c_hid:i2c_hid_fetch_hid_descriptor: i2c_hid_acpi i2c-SPPT2600:00: Fetching the HID descriptor
+[ 5540.535585] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=20 00
+[ 5540.536515] i2c_hid:i2c_hid_fetch_hid_descriptor: i2c_hid_acpi i2c-SPPT2600:00: HID Descriptor: 1e 00 00 01 e2 01 21 00 24 00 1f 00 25 00 11 00 22 00 23 00 11 09 88 52 06 00 00 00 00 00
+[ 5540.536521] i2c_hid:i2c_hid_init_irq: i2c_hid_acpi i2c-SPPT2600:00: Requesting IRQ: 152
+[ 5540.536795] i2c_hid:i2c_hid_parse: i2c_hid_acpi i2c-SPPT2600:00: entering i2c_hid_parse
+[ 5540.536798] i2c_hid:i2c_hid_start_hwreset: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_start_hwreset
+[ 5540.536801] i2c_hid:i2c_hid_set_power: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_power
+[ 5540.536803] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 00 08
+[ 5540.586149] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 07 61 04 8f 01 0b 0a 08 7c 00 0f 3a 06 b9 00 03 ae 03 43 02 dc b1 04 02 1a 02 a0 48
+[ 5540.594316] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 07 77 04 7c 01 09 0a 08 7c 00 0d 3a 06 b9 00 03 ae 03 43 02 2c b2 04 03 00 02 c0 4a
+[ 5540.597698] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 00 01
+[ 5540.598052] i2c_hid:i2c_hid_finish_hwreset: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_finish_hwreset: waiting...
+[ 5540.703730] i2c_hid:i2c_hid_finish_hwreset: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_finish_hwreset: finished.
+[ 5540.703744] i2c_hid:i2c_hid_set_power: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_power
+[ 5540.703750] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 00 08
+[ 5540.709854] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 10 01 42 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 be b6 01 04 01 00 e0 60
+[ 5540.757362] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 0d 01 42 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 94 b8 01 05 00 02 00 60
+[ 5540.765680] i2c_hid:i2c_hid_parse: i2c_hid_acpi i2c-SPPT2600:00: asking HID report descriptor
+[ 5540.765696] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=21 00
+[ 5540.766571] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 0b 01 44 01 07 ab 02 7b 01 0a 19 08 e8 00 00 00 00 00 00 e4 b8 03 06 00 02 60 2f
+[ 5540.777901] i2c_hid:i2c_hid_parse: i2c_hid_acpi i2c-SPPT2600:00: Report Descriptor: 05 01 02 04 0b 01 85 01 09 01 a1 00 05 09 19 01 29 02 25 01 75 01 95 02 81 02 95 06 81 01 05 01 09 30 09 31 15 81 25 7f 75 08 95 02 81 06 c0 c0 05 0d 09 05 a1 01 95 01 55 0e 65 11 15 00 85 04
+[ 5540.779422] hid-multitouch 0018:0911:5288.004A: collection stack underflow
+[ 5540.779446] hid-multitouch 0018:0911:5288.004A: item 0 0 0 12 parsing failed
+[ 5540.779490] hid-multitouch 0018:0911:5288.004A: probe with driver hid-multitouch failed with error -22

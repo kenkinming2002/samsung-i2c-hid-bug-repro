@@ -1,0 +1,7 @@
+[ 5552.134971] i2c_hid:i2c_hid_set_power: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_power
+[ 5552.134982] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 01 08
+[ 5552.403834] i2c_hid:i2c_hid_core_probe: i2c-hid-core.c: HID probe called for i2c 0x2c
+[ 5552.404099] i2c_hid:i2c_hid_fetch_hid_descriptor: i2c_hid_acpi i2c-SPPT2600:00: Fetching the HID descriptor
+[ 5552.404104] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=20 00
+[ 5552.405048] i2c_hid_acpi i2c-SPPT2600:00: unexpected HID descriptor bcdVersion (0x0209)
+[ 5552.405054] i2c_hid_acpi i2c-SPPT2600:00: Failed to fetch the HID Descriptor

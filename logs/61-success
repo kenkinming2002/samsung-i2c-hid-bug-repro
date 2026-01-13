@@ -1,0 +1,57 @@
+[ 5568.439455] i2c_hid:i2c_hid_core_probe: i2c-hid-core.c: HID probe called for i2c 0x2c
+[ 5568.439717] i2c_hid:i2c_hid_fetch_hid_descriptor: i2c_hid_acpi i2c-SPPT2600:00: Fetching the HID descriptor
+[ 5568.439722] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=20 00
+[ 5568.440650] i2c_hid:i2c_hid_fetch_hid_descriptor: i2c_hid_acpi i2c-SPPT2600:00: HID Descriptor: 1e 00 00 01 e2 01 21 00 24 00 1f 00 25 00 11 00 22 00 23 00 11 09 88 52 06 00 00 00 00 00
+[ 5568.440660] i2c_hid:i2c_hid_init_irq: i2c_hid_acpi i2c-SPPT2600:00: Requesting IRQ: 152
+[ 5568.440989] i2c_hid:i2c_hid_parse: i2c_hid_acpi i2c-SPPT2600:00: entering i2c_hid_parse
+[ 5568.440996] i2c_hid:i2c_hid_start_hwreset: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_start_hwreset
+[ 5568.441000] i2c_hid:i2c_hid_set_power: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_power
+[ 5568.441003] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 00 08
+[ 5568.502449] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 00 01
+[ 5568.502991] i2c_hid:i2c_hid_finish_hwreset: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_finish_hwreset: waiting...
+[ 5568.607455] i2c_hid:i2c_hid_finish_hwreset: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_finish_hwreset: finished.
+[ 5568.607467] i2c_hid:i2c_hid_set_power: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_power
+[ 5568.607472] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 00 08
+[ 5568.668444] i2c_hid:i2c_hid_parse: i2c_hid_acpi i2c-SPPT2600:00: asking HID report descriptor
+[ 5568.668454] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=21 00
+[ 5568.679995] i2c_hid:i2c_hid_parse: i2c_hid_acpi i2c-SPPT2600:00: Report Descriptor: 05 01 09 02 a1 01 85 01 09 01 a1 00 05 09 19 01 29 02 25 01 75 01 95 02 81 02 95 06 81 01 05 01 09 30 09 31 15 81 25 7f 75 08 95 02 81 06 c0 c0 05 0d 09 05 a1 01 95 01 55 0e 65 11 15 00 85 04
+[ 5568.682611] i2c_hid:i2c_hid_get_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_get_report
+[ 5568.682622] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 32 02 23 00
+[ 5568.683099] i2c_hid:i2c_hid_get_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_get_report
+[ 5568.683105] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 32 02 23 00
+[ 5568.683657] i2c_hid:i2c_hid_get_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_get_report
+[ 5568.683668] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 36 02 23 00
+[ 5568.690341] input: SPPT2600:00 0911:5288 Touchpad as /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-0/i2c-SPPT2600:00/0018:0911:5288.0061/input/input177
+[ 5568.691008] hid-multitouch 0018:0911:5288.0061: input,hidraw1: I2C HID v1.00 Mouse [SPPT2600:00 0911:5288] on i2c-SPPT2600:00
+[ 5568.691032] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.691038] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 33 03 23 00 04 00 03 03
+[ 5568.691518] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.691528] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 35 03 23 00 04 00 05 03
+[ 5568.701850] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.701856] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 33 03 23 00 04 00 03 03
+[ 5568.702312] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.702315] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 35 03 23 00 04 00 05 03
+[ 5568.713307] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.713316] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 33 03 23 00 04 00 03 03
+[ 5568.713783] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.713789] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 35 03 23 00 04 00 05 00
+[ 5568.738892] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.738903] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 33 03 23 00 04 00 03 03
+[ 5568.739614] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.739624] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 35 03 23 00 04 00 05 03
+[ 5568.748309] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.748321] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 33 03 23 00 04 00 03 03
+[ 5568.749074] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.749086] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 35 03 23 00 04 00 05 00
+[ 5568.766581] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.766593] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 33 03 23 00 04 00 03 03
+[ 5568.767402] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.767412] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 35 03 23 00 04 00 05 03
+[ 5568.775576] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.775588] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 33 03 23 00 04 00 03 03
+[ 5568.776442] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.776456] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 35 03 23 00 04 00 05 00
+[ 5568.786487] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.786498] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 33 03 23 00 04 00 03 03
+[ 5568.787073] i2c_hid:i2c_hid_set_or_send_report: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_or_send_report
+[ 5568.787083] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 35 03 23 00 04 00 05 03

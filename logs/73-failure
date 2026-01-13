@@ -1,0 +1,88 @@
+[ 5574.720802] i2c_hid:i2c_hid_core_probe: i2c-hid-core.c: HID probe called for i2c 0x2c
+[ 5574.721099] i2c_hid:i2c_hid_fetch_hid_descriptor: i2c_hid_acpi i2c-SPPT2600:00: Fetching the HID descriptor
+[ 5574.721108] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=20 00
+[ 5574.722105] i2c_hid:i2c_hid_fetch_hid_descriptor: i2c_hid_acpi i2c-SPPT2600:00: HID Descriptor: 1e 00 00 01 e2 01 21 00 24 00 1f 00 25 00 11 00 22 00 23 00 11 09 88 52 06 00 00 00 00 00
+[ 5574.722115] i2c_hid:i2c_hid_init_irq: i2c_hid_acpi i2c-SPPT2600:00: Requesting IRQ: 152
+[ 5574.722416] i2c_hid:i2c_hid_parse: i2c_hid_acpi i2c-SPPT2600:00: entering i2c_hid_parse
+[ 5574.722424] i2c_hid:i2c_hid_start_hwreset: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_start_hwreset
+[ 5574.722427] i2c_hid:i2c_hid_set_power: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_power
+[ 5574.722430] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 00 08
+[ 5574.783345] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 00 01
+[ 5574.783933] i2c_hid:i2c_hid_finish_hwreset: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_finish_hwreset: waiting...
+[ 5574.888325] i2c_hid:i2c_hid_finish_hwreset: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_finish_hwreset: finished.
+[ 5574.888337] i2c_hid:i2c_hid_set_power: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_power
+[ 5574.888342] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 00 08
+[ 5574.923142] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 82 0a 01 00 00 02 00 13
+[ 5574.948194] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7c 0b 01 01 00 02 00 13
+[ 5574.950148] i2c_hid:i2c_hid_parse: i2c_hid_acpi i2c-SPPT2600:00: asking HID report descriptor
+[ 5574.950157] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=21 00
+[ 5574.961486] i2c_hid:i2c_hid_parse: i2c_hid_acpi i2c-SPPT2600:00: Report Descriptor: 05 01 02 04 c2 06 85 01 09 01 a1 00 05 09 19 01 29 02 25 01 75 01 95 02 81 02 95 06 81 01 05 01 09 30 09 31 15 81 25 7f 75 08 95 02 81 06 c0 c0 05 0d 09 05 a1 01 95 01 55 0e 65 11 15 00 85 04
+[ 5574.962432] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.962814] hid-multitouch 0018:0911:5288.0067: unknown main item tag 0x0
+[ 5574.962918] hid-multitouch 0018:0911:5288.0067: collection stack underflow
+[ 5574.962937] hid-multitouch 0018:0911:5288.0067: item 0 0 0 12 parsing failed
+[ 5574.962961] hid-multitouch 0018:0911:5288.0067: probe with driver hid-multitouch failed with error -22
+[ 5574.964237] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.966034] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.967815] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.969589] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.971388] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.973165] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.974901] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.976679] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.978292] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.979919] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.981461] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.983122] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.984754] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.986351] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.987947] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.989539] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.991156] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.992781] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.994394] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.996025] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.997651] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5574.999207] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.000807] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.002413] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.004039] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.005623] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.007238] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.008826] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.010448] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.012058] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.013620] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.015181] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.016790] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.018406] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.020027] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.021660] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.023264] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.024920] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.026535] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.028166] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.029780] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.031348] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.032926] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.034532] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.036156] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.037795] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.039407] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.041023] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.042621] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.044227] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.045844] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.047466] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.049045] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.050674] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.052294] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.053957] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.055555] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.057183] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.058805] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.060415] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.062045] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.063635] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.065213] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
+[ 5575.066834] i2c_hid:i2c_hid_get_input: i2c_hid_acpi i2c-SPPT2600:00: input: 1f 00 04 03 c2 06 fd 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 d6 0b 01 02 00 03 00 13
