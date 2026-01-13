@@ -1,0 +1,18 @@
+[ 1960.673571] i2c_hid:i2c_hid_core_probe: i2c-hid-core.c: HID probe called for i2c 0x2c
+[ 1960.673844] i2c_hid:i2c_hid_fetch_hid_descriptor: i2c_hid_acpi i2c-SPPT2600:00: Using a HID descriptor override
+[ 1960.673853] i2c_hid:i2c_hid_fetch_hid_descriptor: i2c_hid_acpi i2c-SPPT2600:00: HID Descriptor: 1e 00 00 01 e2 01 21 00 24 00 1f 00 25 00 11 00 22 00 23 00 11 09 88 52 06 00 00 00 00 00
+[ 1960.673861] i2c_hid:i2c_hid_init_irq: i2c_hid_acpi i2c-SPPT2600:00: Requesting IRQ: 152
+[ 1960.674173] i2c_hid:i2c_hid_parse: i2c_hid_acpi i2c-SPPT2600:00: entering i2c_hid_parse
+[ 1960.674179] i2c_hid:i2c_hid_start_hwreset: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_start_hwreset
+[ 1960.674182] i2c_hid:i2c_hid_set_power: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_power
+[ 1960.674185] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 00 08
+[ 1960.735029] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 00 01
+[ 1960.735570] i2c_hid:i2c_hid_finish_hwreset: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_finish_hwreset: waiting...
+[ 1960.838053] i2c_hid:i2c_hid_finish_hwreset: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_finish_hwreset: finished.
+[ 1960.838065] i2c_hid:i2c_hid_set_power: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_power
+[ 1960.838070] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 00 08
+[ 1960.899053] i2c_hid:i2c_hid_parse: i2c_hid_acpi i2c-SPPT2600:00: asking HID report descriptor
+[ 1960.899062] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=21 00
+[ 1960.899514] i2c_hid:i2c_hid_parse: i2c_hid_acpi i2c-SPPT2600:00: Report Descriptor: 
+[ 1960.899708] hid-generic 0018:0911:5288.00E2: item fetching failed at offset 0/0
+[ 1960.899722] hid-generic 0018:0911:5288.00E2: probe with driver hid-generic failed with error -22

@@ -1,0 +1,20 @@
+[ 2007.245364] i2c_hid:i2c_hid_set_power: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_power
+[ 2007.245373] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 01 08
+[ 2007.483895] i2c_hid:i2c_hid_core_probe: i2c-hid-core.c: HID probe called for i2c 0x2c
+[ 2007.484183] i2c_hid:i2c_hid_fetch_hid_descriptor: i2c_hid_acpi i2c-SPPT2600:00: Using a HID descriptor override
+[ 2007.484189] i2c_hid:i2c_hid_fetch_hid_descriptor: i2c_hid_acpi i2c-SPPT2600:00: HID Descriptor: 1e 00 00 01 e2 01 21 00 24 00 1f 00 25 00 11 00 22 00 23 00 11 09 88 52 06 00 00 00 00 00
+[ 2007.484195] i2c_hid:i2c_hid_init_irq: i2c_hid_acpi i2c-SPPT2600:00: Requesting IRQ: 152
+[ 2007.484513] i2c_hid:i2c_hid_parse: i2c_hid_acpi i2c-SPPT2600:00: entering i2c_hid_parse
+[ 2007.484517] i2c_hid:i2c_hid_start_hwreset: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_start_hwreset
+[ 2007.484521] i2c_hid:i2c_hid_set_power: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_power
+[ 2007.484524] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 00 08
+[ 2007.545772] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 00 01
+[ 2007.546418] i2c_hid:i2c_hid_finish_hwreset: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_finish_hwreset: waiting...
+[ 2007.653788] i2c_hid:i2c_hid_finish_hwreset: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_finish_hwreset: finished.
+[ 2007.653803] i2c_hid:i2c_hid_set_power: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_set_power
+[ 2007.653808] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=22 00 00 08
+[ 2007.714760] i2c_hid:i2c_hid_parse: i2c_hid_acpi i2c-SPPT2600:00: asking HID report descriptor
+[ 2007.714768] i2c_hid:i2c_hid_xfer: i2c_hid_acpi i2c-SPPT2600:00: i2c_hid_xfer: cmd=21 00
+[ 2007.715351] i2c_hid:i2c_hid_parse: i2c_hid_acpi i2c-SPPT2600:00: Report Descriptor: 
+[ 2007.715523] hid-generic 0018:0911:5288.0130: item fetching failed at offset 0/0
+[ 2007.715537] hid-generic 0018:0911:5288.0130: probe with driver hid-generic failed with error -22
